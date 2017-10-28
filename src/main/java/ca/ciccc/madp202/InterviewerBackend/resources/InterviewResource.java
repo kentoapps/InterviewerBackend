@@ -16,13 +16,6 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import org.glassfish.hk2.api.messaging.Topic;
-
-import com.sun.media.jai.codecimpl.util.Service;
-import com.sun.org.apache.bcel.internal.generic.NEW;
-import com.sun.org.apache.regexp.internal.recompile;
-import com.sun.xml.internal.ws.client.sei.ResponseBuilder;
-
 import ca.ciccc.madp202.InterviewerBackend.database.Database;
 import ca.ciccc.madp202.InterviewerBackend.entities.AnswerCollection;
 import ca.ciccc.madp202.InterviewerBackend.entities.CredentialRequest;
